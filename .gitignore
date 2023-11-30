@@ -9,10 +9,15 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.png
-*.dt
 *.vcxproj.filters
 *.vcxproj.user
+*.cpp
+*.c
+*.h
+*.png
+*.dt
+!distr/*.png
+!distr/*.dt
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
@@ -38,7 +43,7 @@ bld/
 [Ll]og/
 [Ll]ogs/
 [Ss]rc/
-[Rr]ef/
+[Rr]efs/
 [Hh]dr/
 [Ll]ib/
 
